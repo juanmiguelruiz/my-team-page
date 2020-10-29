@@ -5,5 +5,5 @@ Challenge: Create my team page following the design. The page should be responsi
 Tech: React.
 
 ![alt text](https://github.com/juanmiguelruiz/my-team-page/blob/main/src/assets/img/preview_desktop.png)
-![alt text](https://github.com/juanmiguelruiz/my-team-page/blob/main/src/assets/img/preview_mobile.png)
+<img src="https://github.com/juanmiguelruiz/my-team-page/blob/main/src/assets/img/preview_mobile.png" height="1000">
 
