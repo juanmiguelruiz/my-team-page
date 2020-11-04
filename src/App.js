@@ -7,7 +7,6 @@ import photo3 from "./assets/img/photo3.png";
 import photo4 from "./assets/img/photo4.png";
 import photo5 from "./assets/img/photo5.png";
 import photo6 from "./assets/img/photo6.png";
-
 import "./styles.css";
 
 const App = () => {
