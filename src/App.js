@@ -13,32 +13,30 @@ import "./styles.css";
 const App = () => {
   return (
     <div className="container">
-      <div className="col s12 m6">
-        <p className="crew__title">
-        The creative crew
-        </p>
+        <div className="col s12 m6">
+          <p className="crew__title">The creative crew</p>
+        </div>
+        <div className="col s12 m6">
+          <p className="crew__subtitle">WHO ARE WE</p>
+          <p className="crew__text">
+            We are team of creatively diverse. Driven. Innovative individuals
+            working in various locations from the world.
+          </p>
+        </div>
+        <div className="crew__members">
+          <Member photo={photo1} name="Bill Mahoney" position="Product Owner" />
+          <Member photo={photo2} name="Saba Cabrera" position="Art Director" />
+          <Member photo={photo3} name="Shae Le" position="Tech Lead" />
+          <Member photo={photo4} name="Skylah Lu" position="UX Designer" />
+          <Member photo={photo5} name="Giff Richards" position="Dev" />
+          <Member photo={photo6} name="Stan John" position="Dev" />
+        </div>
+        <footer className="crew__footer">
+          <div>
+          </div>
+          <p>juanmiguelruiz @ DevChallenges.io</p>
+        </footer>
       </div>
-      <div className="col s12 m6">
-        <p className="crew__subtitle">
-        WHO ARE WE
-        </p>
-        <p className="crew__text">
-        We are team of creatively diverse. Driven. Innovative individuals working in various locations from the world.
-        </p>
-      </div>
-      <div className="members">
-        <Member photo={photo1} name="Bill Mahoney" position="Product Owner" />
-        <Member photo={photo2} name="Saba Cabrera" position="Art Director" />
-        <Member photo={photo3} name="Shae Le" position="Tech Lead" />
-        <Member photo={photo4} name="Skylah Lu" position="UX Designer" />
-        <Member photo={photo5} name="Giff Richards" position="Dev" />
-        <Member photo={photo6} name="Stan John" position="Dev" />
-      </div>
-      <footer className="crew__footer">
-      <p>juanmiguelruiz @ DevChallenges.io</p>
-
-      </footer>
-    </div>
   );
 };
 

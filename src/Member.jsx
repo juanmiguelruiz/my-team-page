@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Member = ({ photo, name, position }) => {
   return (
-    <div className=" col s6 m4 member">
+    <div className=" col s6 m4 crew__member">
       <p className="crew__pos">{position}</p>
       <img src={photo} alt="crew" />
       <p className="crew__name">{name}</p>
